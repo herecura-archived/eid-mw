@@ -1,0 +1,20 @@
+pkgbase = eid-mw
+	pkgdesc = eID MiddlewareS
+	pkgver = 4.0.2
+	pkgrel = 1
+	url = https://code.google.com/p/eid-mw/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = autoconf
+	makedepends = automake
+	depends = pcsclite
+	depends = gtk2
+	options = !libtool
+	source = https://eid-mw.googlecode.com/files/eid-mw-4.0.2-1188.tar.gz
+	source = patch-gcc47.patch
+	sha1sums = a659800484f993a403881ab593df655ee834da1e
+	sha1sums = f65332bffdec987464b24fc2039d16b8a079317e
+
+pkgname = eid-mw
+
