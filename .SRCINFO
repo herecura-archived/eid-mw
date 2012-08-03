@@ -1,20 +1,20 @@
 pkgbase = eid-mw
-	pkgdesc = eID MiddlewareS
-	pkgver = 4.0.2
+	pkgdesc = The eID middleware for the Belgian eID
+	pkgver = 4.0.4
 	pkgrel = 1
-	url = https://code.google.com/p/eid-mw/
+	url = http://eid.belgium.be/fr/utiliser_votre_eid/installer_le_logiciel_eid/linux/
 	arch = i686
 	arch = x86_64
 	license = GPL
 	makedepends = autoconf
 	makedepends = automake
+	makedepends = java-runtime
 	depends = pcsclite
 	depends = gtk2
+	optdepends = firefox: extension for Belgian eid
 	options = !libtool
-	source = https://eid-mw.googlecode.com/files/eid-mw-4.0.2-1188.tar.gz
-	source = patch-gcc47.patch
-	sha1sums = a659800484f993a403881ab593df655ee834da1e
-	sha1sums = f65332bffdec987464b24fc2039d16b8a079317e
+	source = http://eid.belgium.be/fr/binaries/eid-mw-4.0.4-1253_tcm226-178475.tgz
+	md5sums = 485eb2ebafd44efaf0b487122485ecf8
 
 pkgname = eid-mw
 
