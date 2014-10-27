@@ -1,20 +1,19 @@
 pkgbase = eid-mw
 	pkgdesc = The eID middleware for the Belgian eID
-	pkgver = 4.0.4
-	pkgrel = 1
-	url = http://eid.belgium.be/fr/utiliser_votre_eid/installer_le_logiciel_eid/linux/
+	pkgver = 4.0.6
+	pkgrel = 2
+	url = http://eid.belgium.be/
 	arch = i686
 	arch = x86_64
-	license = GPL
-	makedepends = autoconf
-	makedepends = automake
-	makedepends = java-runtime
+	license = LGPL3
 	depends = pcsclite
 	depends = gtk2
 	optdepends = firefox: extension for Belgian eid
+	optdepends = acsccid: ACS CCID smart card readers
+	optdepends = pcsc-tools: PC/SC smartcard tools
 	options = !libtool
-	source = http://eid.belgium.be/fr/binaries/eid-mw-4.0.4-1253_tcm226-178475.tgz
-	md5sums = 485eb2ebafd44efaf0b487122485ecf8
+	source = http://eid.belgium.be/nl/binaries/eid-mw-4.0.6-1480.tar_tcm227-250016.gz
+	sha256sums = 1ff3a7740a30891df2da12fca66cb5324dc286f9490ee839d61d9f1028b9127c
 
 pkgname = eid-mw
 
