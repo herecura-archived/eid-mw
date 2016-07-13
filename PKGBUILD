@@ -1,10 +1,11 @@
 # vim:set ts=2 sw=2 et:
-# Maintainer: Alad Wenter <alad@archlinux.info>
+# Maintainer: Emil Vanherp <emil DOT vanherp @ hot mail DOT com>
+# Contributor: Alad Wenter <https://wiki.archlinux.org/index.php/Special:EmailUser/Alad>
 # Contributor: Xavier D. <magicrhesus@ouranos.be>
 # Contributor: Valère Monseur <valere.monseur@ymail.com>
 
 pkgname=eid-mw
-pkgver=4.1.9
+pkgver=4.1.18
 pkgrel=1
 pkgdesc="The eID middleware for the Belgian eID"
 url="http://eid.belgium.be/"
@@ -16,7 +17,7 @@ optdepends=('firefox: extension for Belgian eid'
 	'ccid: A generic USB Chip/Smart Card Interface Devices driver'
 	'pcsc-tools: PC/SC smartcard tools')
 source=("https://dist.eid.belgium.be/continuous/sources/$pkgname-$pkgver-v$pkgver.tar.gz"{,.asc})
-sha256sums=('0c46c73b805884dd4ae739eb6025c137c1055ad119eac1ab37cb83eb32d92953'
+sha256sums=('abc9d3194008f05b2589ddd9a29c45d22d89716bdc8689fcec42b2aa8450ddbf'
             'SKIP')
 validpgpkeys=('D95426E309C0492990D8E8E2824A5E0010A04D46')
 
