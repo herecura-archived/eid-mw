@@ -9,7 +9,7 @@ pkgver=4.2.5
 pkgrel=2
 
 pkgdesc='The middleware, viewer and Firefox extension for the Belgian electronic identity card (Belgian eID)'
-arch=('i686' 'x86_64')
+arch=('x86_64')
 url='http://eid.belgium.be/'
 license=('LGPL3')
 
